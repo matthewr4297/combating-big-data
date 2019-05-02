@@ -1,0 +1,53 @@
+#landing {
+      display: table;
+      width: 100%;
+      height: 100%;
+      background-color: blue;
+      /*background:url('https://c1.staticflickr.com/9/8313/8066181900_29ea265122_b.jpg') no-repeat center;
+      */
+      
+      background-size: cover;
+    }
+    /*xs > devices*/
+    h1 {
+      font-size: 40px;
+    }
+    h2 {
+      font-size: 20px;
+      
+    }
+    /*xs+*/
+    @media(min-width:768px){
+      h1{
+        font-size:80px
+      }
+      h2{
+        font-size:40px;
+      }
+    }
+    @media(min-width:992px){
+        h1{
+            font-size:100px;
+            
+        }
+        h2{
+            font-size:60px;
+        }
+       }
+        /*@media(min-width:1200px){
+        h1{
+            font-size:120px;
+        }
+        h2{
+            font-size:80px;
+        }
+    }*/
+    #nav-brand{
+        color:white;
+    }
+ .text-vertical-center {
+      text-align: center;
+      vertical-align: middle;
+      display: table-cell;
+      color: white;
+    }
