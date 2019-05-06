@@ -1,7 +1,16 @@
+/* Hexcode color pallet:
+ #0E0017 [Rich Black]
+ #10001A [Smoky Black]
+ #FF6600 [Safety Orange]
+ #FF9249 [Mango Tango]
+*/
+
+
+
 #landing {
       display: table;
       width: 100%;
-      height: 100%;
+      height: 600px;
       background-color: #FF6600;
       /*background:url('https://c1.staticflickr.com/9/8313/8066181900_29ea265122_b.jpg') no-repeat center;
       */
@@ -10,10 +19,8 @@
     }
 body{
     background-color: #0E0017;
-
+    position:relative;
 }  
-
-
     /*xs+*/
     @media(min-width:768px){
       h1{
