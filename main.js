@@ -1,11 +1,20 @@
-$(function(){
-        $('#img-1-1').dblclick(function(){
-            console.log("JS is working properly")
-        })
+$(function() {
+    $('#img-1-1').click(function(){
+        $(this).fadeTo("slow",.10).delay(750).fadeTo("slow",1)
+    })
+    $('#img-1-1').dblclick(function(){
+        window.location.href=("https://twitter.com/iamdylancurran/status/977560765245874176/photo/1");
+    })
+    $('#img-1-2').click(function(){
+        $(this).fadeTo("slow",.10).delay(750).fadeTo("slow",1)
+    })
     $('#img-1-2').dblclick(function(){
-            console.log("JS is working properly")
-        })
-        $('#img-1-3').dblclick(function(){
-            console.log("JS is working properly")
-        })
+        window.location.href=("https://twitter.com/iamdylancurran/status/977576559543488512/photo/1");
+    })
+        $('#img-1-3').click(function(){
+        $(this).fadeTo("slow",.10).delay(750).fadeTo("slow",1)
+    })
+    $('#img-1-3').dblclick(function(){
+        window.location.href=("https://support.google.com/websearch/answer/6030020?hl=en&co=GENIE.Platform%3DAndroid");
+    })
 });
