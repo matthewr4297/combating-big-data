@@ -5,89 +5,229 @@
  #FF9249 [Mango Tango]
 */
 
+#landing-1,
+#landing-2 {
+    display: table;
+    width: 100%;
+    height: 400px;
+}
 
+#landing-1 {
+    background: linear-gradient(181deg, #186cce, #e42505, #ecbf0a, #06c60d);
+    background-size: 800% 800%;
 
-#landing {
-      display: table;
-      width: 100%;
-      height: 800px;
-      background-color: #FF6600;
-      /*background:url('https://c1.staticflickr.com/9/8313/8066181900_29ea265122_b.jpg') no-repeat center;
-      */
-      
-      background-size: cover;
+    -webkit-animation: google-landing-animated 30s ease infinite;
+    -moz-animation: google-landing-animated 30s ease infinite;
+    animation: google-landing-animated 30s ease infinite;
+}
+
+@-webkit-keyframes google-landing-animated {
+    0% {
+        background-position: 49% 0%
     }
-body{
+    50% {
+        background-position: 52% 100%
+    }
+    100% {
+        background-position: 49% 0%
+    }
+}
+
+@-moz-keyframes google-landing-animated {
+    0% {
+        background-position: 49% 0%
+    }
+    50% {
+        background-position: 52% 100%
+    }
+    100% {
+        background-position: 49% 0%
+    }
+}
+
+@keyframes google-landing-animated {
+    0% {
+        background-position: 49% 0%
+    }
+    50% {
+        background-position: 52% 100%
+    }
+    100% {
+        background-position: 49% 0%
+    }
+}
+
+#landing-2 {
+    background: linear-gradient(181deg, #0053b4, #fffdfd, #0053b4, #fffdfd);
+    background-size: 800% 800%;
+
+    -webkit-animation: facebook-landing-animated 30s ease infinite;
+    -moz-animation: facebook-landing-animated 30s ease infinite;
+    animation: facebook-landing-animated 30s ease infinite;
+}
+
+@-webkit-keyframes facebook-landing-animated {
+    0% {
+        background-position: 49% 0%
+    }
+    50% {
+        background-position: 52% 100%
+    }
+    100% {
+        background-position: 49% 0%
+    }
+}
+
+@-moz-keyframes facebook-landing-animated {
+    0% {
+        background-position: 49% 0%
+    }
+    50% {
+        background-position: 52% 100%
+    }
+    100% {
+        background-position: 49% 0%
+    }
+}
+
+@keyframes facebook-landing-animated {
+    0% {
+        background-position: 49% 0%
+    }
+    50% {
+        background-position: 52% 100%
+    }
+    100% {
+        background-position: 49% 0%
+    }
+}
+
+#google-logo,#facebook-logo {
+    opacity:0;
+    
+}
+
+
+body {
     background-color: #0E0017;
-    position:relative;
-}  
-    /*xs+*/
-    @media(min-width:768px){
-      h1{
-        font-size:60px
-      }
-      h2{
-        font-size:30px;
-      }
-      #img{
+    position: relative;
+}
+
+/*xs+*/
+
+@media(min-width:768px) {
+    h1 {
+        font-size: 60px
+    }
+    h2 {
+        font-size: 30px;
+    }
+    #img {
         padding-left: 60px
     }
+    p {
+        font-size: 20px;
     }
-    @media(min-width:992px){
-        h1{
-            font-size: 70px;
-            
-        }
-        h2{
-            font-size:50px;
-        }
-        #img-1{
+}
+
+@media(min-width:992px) {
+    h1 {
+        font-size: 70px;
+
+    }
+    h2 {
+        font-size: 50px;
+    }
+    #img-1 {
         padding-left: 100px
     }
-       }
-        @media(min-width:1200px){
-           #img-1{
-               padding-left:150px;
-           }
-        }
-    #nav-brand{
-        color:white;
+    p {
+        font-size: 30px;
     }
-    #nav-section{
-        color:white;
+}
+
+@media(min-width:1200px) {
+    #img-1 {
+        padding-left: 150px;
     }
-    h1{
-        color:white;
-    }
-    h3{
-        color:#FFF3B5
-    }
- .text-vertical-center {
-      text-align: center;
-      vertical-align: middle;
-      display: table-cell;
-      color: white;
-    }
-    #section{
-        background-image: linear-gradient(#FF9249,#FF6600);
-    }
-    #fact{
-        border-radius:25px;
-        background-color: #49368B
-    }
-    p{
-        color:white;
-    }
-    #sec2-col{
-        border-radius:25px;
-        background-color: #FF924910
-    }
-    #level-1{
-        background-color:#4B88A2
-    }
-    #level-2{
-        background-color:#FFBB00;
-    }
-    #level-3{
-        background-color:#960000;
-    }
+}
+
+#nav-brand {
+    color: white;
+}
+
+#nav-section {
+    color: white;
+}
+#nav{
+    background-color:#FF660099;
+}
+h1 {
+    color: white;
+}
+
+h3 {
+    color: #FFF3B5
+}
+
+.text-vertical-center {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    color: white;
+}
+
+/* Custom css links */
+
+#article-link {
+    background-color: #4B88A2;
+    ;
+    color: white;
+    padding: 15px 50px;
+    display: inline-block;
+    border-radius: 15px;
+    /*border: 0.2rem solid white;*/
+}
+
+#article-link:hover {
+    background-color: #3E7085;
+
+}
+
+#section-1,
+#section-2,
+#section-3 {
+    background-image: linear-gradient(#FF9249, #FF6600);
+}
+
+#fact {
+    border-radius: 25px;
+    background-image: linear-gradient(#FF924950, #FF6600);
+}
+
+p {
+    color: white;
+}
+
+#sec2-col {
+    border-radius: 25px;
+    background-color: #FF924910
+}
+
+#level-1 {
+    background-color: #4B88A2
+}
+
+#level-2 {
+    background-color: #FFBB00;
+}
+
+#level-3 {
+    background-color: #960000;
+}
+
+h4 {
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

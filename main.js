@@ -17,4 +17,16 @@ $(function() {
     $('#img-1-3').dblclick(function(){
         window.location.href=("https://support.google.com/websearch/answer/6030020?hl=en&co=GENIE.Platform%3DAndroid");
     })
+    $('#landing-1').mouseenter(function(){
+        $('#google-logo').fadeTo("slow",0.8)
+    })
+    $('#landing-1').mouseleave(function(){
+        $('#google-logo').fadeTo("slow",0)
+    })
+    $('#landing-2').mouseenter(function(){
+        $('#facebook-logo').fadeTo("slow",0.8)
+    })
+    $('#landing-2').mouseleave(function(){
+        $('#facebook-logo').fadeTo("slow",0)
+    })
 });
