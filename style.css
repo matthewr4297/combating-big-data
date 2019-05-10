@@ -103,7 +103,8 @@
 }
 
 #google-logo,#facebook-logo {
-    opacity:0;
+    opacity:1;
+
     
 }
 
@@ -125,7 +126,7 @@ body {
     #img {
         padding-left: 60px
     }
-    p {
+    p,li {
         font-size: 20px;
     }
 }
@@ -141,7 +142,7 @@ body {
     #img-1 {
         padding-left: 100px
     }
-    p {
+    p,li {
         font-size: 30px;
     }
 }
@@ -161,6 +162,9 @@ body {
 }
 #nav{
     background-color:#FF660099;
+}
+#nav-item{
+    font-size:20px;
 }
 h1 {
     color: white;
@@ -198,6 +202,7 @@ h3 {
 #section-2,
 #section-3 {
     background-image: linear-gradient(#FF9249, #FF6600);
+    padding:20px;
 }
 
 #fact {
@@ -208,26 +213,33 @@ h3 {
 p {
     color: white;
 }
-
+#content-2{
+    padding-top:20px;
+}
 #sec2-col {
     border-radius: 25px;
     background-color: #FF924910
 }
 
 #level-1 {
-    background-color: #4B88A2
+    background-color: #4B88A2;
+    padding:50px;
 }
 
 #level-2 {
     background-color: #FFBB00;
+    padding:50px;
 }
 
 #level-3 {
     background-color: #960000;
+    padding:50px;
 }
 
-h4 {
-    background: -webkit-linear-gradient(#eee, #333);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+#credits{
+    padding-top:50px;
+    padding-bottom:50px;
+}
+#contact {
+    color:white;
 }
