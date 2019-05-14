@@ -29,6 +29,7 @@ $(function() {
     $('#img-1-3').dblclick(function() {
         window.location.href = ("https://support.google.com/websearch/answer/6030020?hl=en&co=GENIE.Platform%3DAndroid");
     })
+    
     $('#landing-1').mouseenter(function() {
         $('#google-logo').fadeTo("slow", 0.8)
     })

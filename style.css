@@ -16,6 +16,9 @@
 }
 
 #landing-1 {
+    background-color:#200333;
+}
+#landing-1:hover{
     background: linear-gradient(181deg, #186cce, #e42505, #ecbf0a, #06c60d);
     background-size: 800% 800%;
 
@@ -23,7 +26,6 @@
     -moz-animation: google-landing-animated 30s ease infinite;
     animation: google-landing-animated 30s ease infinite;
 }
-
 @-webkit-keyframes google-landing-animated {
     0% {
         background-position: 49% 0%
@@ -61,14 +63,16 @@
 }
 
 #landing-2 {
-    background: linear-gradient(181deg, #0053b4, #fffdfd, #0053b4, #fffdfd);
+   background-color:#200333;
+}
+#landing-2:hover{
+     background: linear-gradient(181deg, #0053b4, #fffdfd, #0053b4, #fffdfd);
     background-size: 800% 800%;
 
     -webkit-animation: facebook-landing-animated 30s ease infinite;
     -moz-animation: facebook-landing-animated 30s ease infinite;
     animation: facebook-landing-animated 30s ease infinite;
 }
-
 @-webkit-keyframes facebook-landing-animated {
     0% {
         background-position: 49% 0%
@@ -233,9 +237,12 @@ h3 {
     color: white;
     padding: 15px 50px;
     display: inline-block;
+    transition:0.3s;
 }
 #article-link:hover {
-    background-image: linear-gradient(#4B88A2,#41f471);
+    
+background-image: linear-gradient(#4B88A2,#41f471);
+    
 
 }
 #source-link-2{
