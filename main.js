@@ -9,6 +9,9 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 };
 $(function() {
+    $('#landing-1').bind("click",function(){
+        $('#landing-1').toggle
+    })
     
     
     $('#img-1-1').click(function() {
@@ -31,16 +34,16 @@ $(function() {
     })
     
     $('#landing-1').mouseenter(function() {
-        $('#google-logo').fadeTo("slow", 0.8)
+        $('#google-logo').fadeTo("fast", 0.8)
     })
     $('#landing-1').mouseleave(function() {
-        $('#google-logo').fadeTo("slow", 0)
+        $('#google-logo').fadeTo("fast", 0)
     })
     $('#landing-2').mouseenter(function() {
-        $('#facebook-logo').fadeTo("slow", 0.8)
+        $('#facebook-logo').fadeTo("fast", 0.8)
     })
     $('#landing-2').mouseleave(function() {
-        $('#facebook-logo').fadeTo("slow", 0)
+        $('#facebook-logo').fadeTo("fast", 0)
     })
   
   $('.nav-item').click(function() {

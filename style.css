@@ -142,9 +142,12 @@ body {
     #nav-brand{
         text-align:center;
     }
+    
 }
-@media(min-width:600px){
- 
+@media(min-width:580px){
+ #data{
+     padding-top:30px;
+ }
 }
 /*xs+*/
 
@@ -173,6 +176,7 @@ body {
         height:100%;
         width:100%;
     }
+    
 }
 
 @media(min-width:992px) {
@@ -273,7 +277,7 @@ p {
     margin-top:10px;
 }
 #sec2-col {
-     
+    padding:15px;
     background-color: #200333
 }
 
